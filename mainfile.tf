@@ -9,6 +9,11 @@ module "resource_group" {
   source = "../resource_group"
    rg_name = var.rg_name
 }
+module "resource_group-vm" {
+  source = "../resource_group"
+   rg_name = var.rg_name
+}
+
 
 variable "rg_name" {
   
