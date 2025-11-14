@@ -10,6 +10,16 @@ module "resource_group" {
    rg_name = var.rg_name
 }
 
+module "resource_group1" {
+  source = "../resource_group"
+   rg_name = var.rg_name
+}
+
+module "resource_group2" {
+  source = "../resource_group"
+   rg_name = var.rg_name
+}
+
 variable "rg_name" {
   
 }
