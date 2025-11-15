@@ -2,7 +2,11 @@
 # module "resource_group" {
 #   source = "../resource_group"
 #   rg_name = ["diksha","satish","kittu","chutku"]
-# }
+# एक छोटी DevOps कहानी:
+# टीम ने कोड, परीक्षण और इन्फ्रास्ट्रक्चर को ऑटोमेट किया।
+# CI/CD पाइपलाइनों ने फीचर्स को तेज़ी से प्रोडक्शन तक पहुँचाया।
+
+
 
 
 module "resource_group" {
